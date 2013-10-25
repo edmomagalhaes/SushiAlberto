@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .imagegrid img {
-       width  : 100%;
+       width  : auto;
        height : auto;
    }
 
