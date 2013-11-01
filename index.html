@@ -20,8 +20,8 @@
         	<div>
                 <ul data-role="listview">
                     <li><a href="#page2">Sushis</a></li>
-                    <li><a href="#page3">Uramaki</a></li>
-                    <li><a href="#page4">Temaki</a></li>
+                   <!-- <li><a href="#page3">em breve</a></li> -->
+                    <!-- <li><a href="#page4">em breve</a></li> -->
                 </ul>	
             </div>
         </div>
@@ -41,12 +41,25 @@
             <div class="imagegrid">
         	  <img src="images/entrada.jpg" > 							
             </div > 
-          <center> <p>
-           <a href="http://www.sushilar.com.br">www.sushilar.com.br</a><br>
-           <a href="https://www.facebook.com/KizoSushilar">https://www.facebook.com/KizoSushilar</a></p> </center>
+          <center> 
+          <p>
+           www.sushilar.com.br<br>
+           facebook.com/KizoSushilar <br>
+          </p> </center>
 
         </div> 
+<div>
 
+<div data-role="popup" id="popupVideo" data-overlay-theme="a" data-theme="d" data-tolerance="15,15" class="ui-content">
+ 
+    <iframe src="http://player.vimeo.com/video/41135183" width="497" height="298" seamless></iframe>
+ 
+</div>
+
+
+
+
+</div>
     
 
 <div data-role="footer" data-position="fixed">
@@ -60,6 +73,30 @@
 
 <!-- pageSushi -->
 <div data-role="page" id="page2" data-theme="a">
+  
+  <div data-role="popup" id="popupHossomaki">
+    <div data-role="content"><img src="images/Hossomaki.png" width="100%" height="50%" alt="popupHossomaki">
+    </div>
+  </div>
+  
+  <div data-role="popup" id="popupUramaki">
+    <div data-role="content"><img src="images/Uramaki.png" width="100%" height="50%" alt="popupHossomaki">
+    </div>
+  </div>
+  
+  <div data-role="popup" id="popupNiguiri">
+    <div data-role="content"><img src="images/Niguiri.png" width="100%" height="50%" alt="popupHossomaki">
+    </div>
+  </div>
+  
+  <div data-role="popup" id="popupHotsushi">
+    <div data-role="content"><img src="images/Hotsushi.png" width="100%" height="50%" alt="popupHossomaki">
+    </div>
+  </div>
+  
+  
+
+
 	
     
      <div data-role="panel" id="panel" data-theme="a">
@@ -85,8 +122,7 @@
     <div data-role="content" class="imgContPage">
         <div class="ui-grid-b">
             <div class="ui-block-a">
-                <div class="imagegrid">
-                	<img src="images/Hossomaki.png"  alt="Hossomaki">
+                <div class="imagegrid"> <a href="#popupHossomaki" data-rel="popup"><img src="images/Hossomaki.png"  alt="Hossomaki"></a>
                 </div>
             </div>
                 <div class="ui-block-b">
@@ -94,8 +130,7 @@
                 </div>
                 <div class="ui-block-c"><p>Sushi enrolado fino. Consiste em alga com uma camada de arroz avinagrado e um recheio, que pode ser pepino, kani-kama, nabo em conserva, gengibre, ou tiras de peixes variados.</p></div>
             <div class="ui-block-a">
-                <div class="imagegrid">
-                   <img src="images/Uramaki.png"  alt="Uramaki">
+                <div class="imagegrid"> <a href="#popupUramaki" data-rel="popup"><img src="images/Uramaki.png"  alt="Uramaki"></a>
                 </div>
             </div>
             <div class="ui-block-b">
@@ -106,8 +141,8 @@
               <p>Sushi enrolado ao contrário. O arroz fica por fora e geralmente pode ter mais de um ingrediente nos recheios, como o philadélfia (cream cheese e tiras de salmão) e o califórnia (kani-kama, pepino e manga, ou abacate).</p>
             </div>
             <div class="ui-block-a">
-                <div class="imagegrid">
-                    <img src="images/Niguiri.png"  alt="Hossomaki">
+               
+                    <div class="imagegrid"> <a href="#popupNiguiri" data-rel="popup"><img src="images/Niguiri.png"  alt="Uramaki"></a>
                 </div>
             </div>
             <div class="ui-block-b">
@@ -115,8 +150,7 @@
             </div>
             <div class="ui-block-c"><p>Sushi moldado à mão em formato de bolinho com cobertura de frutos do mar, legumes ou ovos.</p></div>
             <div class="ui-block-a">
-                <div class="imagegrid">
-                    <img src="images/Hotsushi.png"  alt="Uramaki">
+                <div class="imagegrid"> <a href="#popupHotsushi" data-rel="popup"><img src="images/Hotsushi.png"  alt="Uramaki"></a>
                 </div>
             </div>
             <div class="ui-block-b">
@@ -223,6 +257,7 @@
 </div>
 
 <!--  fim pageTemaki -->
+
 
 
 

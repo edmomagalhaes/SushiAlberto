@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fee80f9-eabf-4525-893b-6aceaeff8f0a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/TABELA SUSHI.xls" afterPath="$PROJECT_DIR$/images/TABELA SUSHI.xls" />
     </list>
     <ignored path="SushiAlberto.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +30,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="24" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.3686636">
+            <state line="42" column="24" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.3686636">
               <folding />
             </state>
           </provider>
@@ -249,7 +249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="24" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.3686636">
+        <state line="42" column="24" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.3686636">
           <folding />
         </state>
       </provider>
