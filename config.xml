@@ -4,7 +4,7 @@
     id        = "br.com.edmo.sushialberto"
     version   = "1.0.0">
 
-<name>Sushi Alberto</name>
+<name>SushiLar</name>
 
 <description>
 Menu de sushi.
@@ -13,5 +13,24 @@ Menu de sushi.
 <author href="https://edmo.com.br" email="infoedmo@gmail.com">
 Edmo Magalhaes
 </author>
+
+
+
+<icon gap:platform="ios" height="57" src="images/icons/Icon.png" width="57" />
+<icon gap:platform="ios" height="72" src="images/icons/Icon.png" width="72" />
+<icon gap:platform="ios" height="114" src="images/icons/Icon.png" width="114" />
+<icon gap:platform="ios" height="144" src="images/icons/Icon.png" width="144" />
+<icon gap:platform="webos" src="images/icons/Icon.png" />
+<icon gap:platform="winphone" src="images/icons/Icon.png" />
+<icon gap:platform="winphone" gap:role="background" src="images/icons/Icon.png" />
+<gap:splash gap:density="ldpi" gap:platform="android" src="images/splash.jpg" />
+<gap:splash gap:density="mdpi" gap:platform="android" src="images/splash.jpg" />
+<gap:splash gap:density="hdpi" gap:platform="android" src="images/splash.jpg" />
+<gap:splash gap:density="xhdpi" gap:platform="android" src="images/splash.jpg" />
+<gap:splash gap:platform="ios" height="480" src="images/splash.jpg" width="320" />
+<gap:splash gap:platform="ios" height="960" src="images/splash.jpg" width="640" />
+<gap:splash gap:platform="ios" height="1024" src="images/splash.jpg" width="768" />
+<gap:splash gap:platform="ios" height="768" src="images/splash.jpg" width="1024" />
+<gap:splash gap:platform="winphone" src="images/splash.jpg" />
 
 </widget>
