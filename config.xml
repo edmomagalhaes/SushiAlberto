@@ -16,5 +16,6 @@ Edmo Magalhaes
 
 <icon src="icon.png" />
 
+<gap:splash src="images/splash.jpg" gap:platform="ios" width="320" height="480" />
 
 </widget>
